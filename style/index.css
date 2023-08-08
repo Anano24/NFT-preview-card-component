@@ -1,0 +1,135 @@
+/* font 'Outfit' */
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Plus+Jakarta+Sans:wght@500;700;800&family=Red+Hat+Display:wght@700&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    background-color: #0D192C;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.card {
+    width: 279px;
+    height: 495px;
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px 0px #00000018;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.image-equilibrium {
+    max-width: 100%;
+    border-radius: 8px;  
+}
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 302px;
+    max-width: 100%;
+    border-radius: 8px;
+    background-color: #00FFF8;
+    opacity: 0%;
+    margin-top: -303.5px; 
+}
+.overlay:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+    margin: 22px 0px 12px;
+}
+span:hover, h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #8BACD9;
+    margin-bottom: 14px;
+}
+
+.price {
+    display: inline;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #00FFF8;
+    margin: 0px 90px 0px 5px;
+}
+
+.days-left {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #8BACD9;
+    margin-left: 5px;
+}
+
+.line {
+    width: 278px;
+    height: 1px;
+    background-color: #2E405A;
+    margin: 13px 0px;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin-right: 16px;
+    
+}
+
+.name {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #8BACD9;
+}
+ footer {
+    display: flex;
+    align-items: center;
+ }
+ span {
+    color: white;
+ }
+
+ @media screen and (min-width: 375px) {
+    .card {
+        width: 302px;
+        height: 548px;
+    }
+
+    .line {
+        width: 302px;
+        margin: 21px 0px;
+    }
+
+    .text {
+        margin-bottom: 22px;
+    }
+ }
