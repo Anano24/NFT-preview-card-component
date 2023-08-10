@@ -16,7 +16,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Live Site URL: [Github live page]()
+- Live Site URL: [Github live page](https://anano24.github.io/NFT-preview-card-component/)
 
 ## My process
 
